@@ -219,13 +219,15 @@ header{
 /*메인4*/ /*문제점:가로 스크롤 발생*/
 .mainboard-3{
     background-color: rgba(250, 250, 250, 0.95);
-    height: 1000px;
+    height: 2000px;
 }
 
 .container2{
     display: flex;
     flex-direction: column;
-
+    padding-top: 100px;
+    padding-left: 200px;
+    margin-bottom: 150px;
 }
 .remittance{
     font-family: "IBM Plex Sans KR", sans-serif;
@@ -246,10 +248,12 @@ header{
 .container2-1{
     display: flex;
     flex-direction: column;
+    padding-left: 250px;
 
 }
 .container2-2{ 
     display: flex;
+    
 }
 .mini-icon{
     height: 30px; 
@@ -261,9 +265,9 @@ header{
     font-weight: 700;
     font-style: normal;
     color: rgb(0, 140, 255);
+    font-size: 20px;
     margin-left: 10px;
     margin-bottom: 20px;
-    font-size: 20px;
 }
 .container2-3{
     display: flex;
@@ -287,5 +291,36 @@ header{
 .box{
     height: 400px;
     width: 550px;
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+}
 
+
+.box2{
+    height: 400px;
+    width: 550px;
+    display: inline;
+}
+.mini-icon2{
+    height: 30px; 
+    width: 30px; 
+}
+.container2-5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    bottom: 300px;
+}
+.container2-6{
+    display: flex;
+    align-items: start;
+}
+.sentence4{
+    font-family: "IBM Plex Sans KR", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 140, 255);
+    font-size: 20px;
 }
